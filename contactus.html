@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finsweet - Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Sen:wght@700&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/33d5edaf7e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="images/Logo.png" type="image/png" />
+</head>
+<body>
+  <header>
+    <a class="logo" href="/"><img src="images/Logo 2.png" alt="logo"></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+        </ul>
+    </nav>
+    <a class="cta" href="contactus.html">Contact us</a>
+    <p class="menu cta"><i class="fa-solid fa-bars"></i></p>
+  </header>
+  <div id="mobile__menu" class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+      <!-- <i class="fa-solid fa-blog" style="color: #ffffff;"></i>
+      <i class="fa-solid fa-address-card"></i> -->
+      <ul style="list-style:none">
+        <div style="display:flex"><i class="fa-solid fa-house" style="color: #ffffff;font-size:38px;padding-top:5px"></i><li><a href="index.html">Home</a></li></div>
+        <div style="display:flex"><i class="fa-solid fa-newspaper" style="color: #ffffff;font-size:40px;padding-top:5px"></i><li><a href="blog.html">Blog</a></li></div>
+        <div style="display:flex;padding:20px 0px"><i class="fa-solid fa-people-group" style="color: #ffffff;font-size:35px;padding-top:5px"></i><li><a href="aboutus.html">About us</a></li></div>
+        <div style="display:flex"><i class="fa-solid fa-phone" style="color: #ffffff;font-size:40px;padding-top:5px"></i><li><a href="contactus.html">Contact Us</a></li></div>
+        <!-- <li><a href="#">Blog</a></li>
+        <li><a href="#">About us</a></li> -->
+      </ul>
+        <!-- <li><a href="#"><i class="fa-solid fa-address-book" style="color: #ffffff;"></i>Contact us</a></li> -->
+    </div>
+  </div>
+      <div class="contact_text_box">
+      <h3 class="contact_subtitle">Contact us</h3>
+      <h2 class="contact_title">Let’s Start a Conversation</h2>
+      <p class="contact_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+    </div>
+  <div class="contact_box">
+    <div class="contact_hours">
+        <h5 class="hours_subtitle">Working hours</h5>
+        <div class="hours_line line"></div>
+        <div class="hours_title">
+        <h3 class="hours_title_date">Monday To Friday</h3>
+        <h3 class="hours_title_time">9:00 AM to 8:00 PM </h3>
+    </div>
+        <h5 class="hours_text">Our Support Team is available 24/7</h5>
+    </div>
+    <div class="contact_information">
+        <h5 class="information_subtitle">Contact Us</h5>
+        <div class="hours_line line"></div>
+        <h3 class="information_title">020 7993 2905</h3>
+        <h5 class="information_text">
+            hello@finsweet.com
+        </h5>
+    </div>
+  </div>
+    <!-- modify this form HTML and place wherever you want your form -->
+    <!-- <form id="my-form" action="https://formspree.io/f/xgebpqdy" method="POST">
+        <input type="email" name="email" placeholder="Email" class="form-control" />
+        <input type="text" name="message" placeholder="Message" class="form-control" />
+        <button id="my-form-button">Send Message</button>
+        <p id="my-form-status"></p>
+      </form> -->
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScqyt1kVF20jB_kdVmfL0k5H6AG4HdcDsMNRkDhUiSVZBiI-w/formResponse" id="my-form">
+        <input type="text" name="entry.107114887" placeholder="full name" class="form-control">
+        <input type="text" name="entry.518521725" placeholder="your email" class="form-control">
+        <input type="text" name="entry.468328146" placeholder="message" class="form-control">
+        <button type="submit" id="my-form-button">Submit</button>
+      </form>
+      <footer>
+        <div class="footer">
+        <div class="row">
+        <a href="https://www.facebook.com/thatsfinsweet" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/thatsfinsweet/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/c/Finsweet" target="_blank"><i class="fa fa-youtube"></i></a>
+        <a href="https://twitter.com/thatsfinsweet" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+        INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh 
+        </div>
+        </div>
+        </footer>
+  <!-- Place this script at the end of the body tag -->
+  <!-- <script>
+      var form = document.getElementById("my-form");
+      
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+        }).then(response => {
+          if (response.ok) {
+            status.innerHTML = "Thanks for your submission!";
+            form.reset()
+          } else {
+            response.json().then(data => {
+              if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+              } else {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+              }
+            })
+          }
+        }).catch(error => {
+          status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+      }
+      form.addEventListener("submit", handleSubmit)
+  </script> -->
+  <script src="script.js"></script>
+</body>
+</html>
